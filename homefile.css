@@ -1,0 +1,23 @@
+.miltonian-regular {
+    font-family: "Miltonian", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+body{
+    font-family: "Miltonian", serif;
+   
+}
+.navbar,
+footer,
+.navbar a
+{
+    font-family: "Miltonian", serif;
+    background-color: #8BA0B4;
+    color: white;
+}
+.logo{
+    font-family: "Miltonian", serif;
+    color: white;
+    height:700px;
+}
