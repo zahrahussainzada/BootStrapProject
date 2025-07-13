@@ -96,6 +96,7 @@ option:hover{
         padding: 1rem;
         box-sizing: border-box;
         min-height: auto;
+        padding:3px;
     }
     #about h1{
         font-size: 1rem;
