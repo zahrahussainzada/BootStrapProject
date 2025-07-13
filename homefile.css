@@ -142,7 +142,7 @@ option:hover{
     #Order form.card {
       flex-direction: column;
       width: 90%;
-      padding: 1rem;
+      padding: 0.5rem;
       text-align: left;
     }
   
