@@ -83,33 +83,44 @@ option:hover{
 }
 @media (max-width: 768px) {
 .logo h1{
- font-size: 0.5rem;
+ font-size: 1.2rem;
 }
  .logo h4{
-    font-size: 0.3rem;
+    font-size: 1rem;
 }
 }
 @media (max-width: 768px) {
     #about .card{
         flex-direction: column;
-        width: 100vw;
-        height: auto;
+        width: 100%;
+        padding: 1rem;
+        box-sizing: border-box;
     }
     #about h1{
         font-size: 1rem;
     }
     #about p{
-        font-size: 0.8rem;
-        white-space: normal;
-        word-break: break-word;
+        font-size: 0.9rem;
         text-align: center;
+        word-break: break-word;
+        padding: 0 0.5rem;
     }
     #about img{
         width: 100%;
         height: auto;
-        margin-bottom: 0.6rem;
-    }
+        max-width: 100%; 
+        margin-bottom: 1rem; 
+ }
 }  
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
     #Order form.card {
       flex-direction: column;
