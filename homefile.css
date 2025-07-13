@@ -176,3 +176,11 @@ option:hover{
     }
     
     }
+ @media (max-width: 768px) {
+        #Restaurants .card{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        }
