@@ -1,157 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FoodieHub</title>
     <link rel="icon" href="https://raw.githubusercontent.com/zahrahussainzada/CSS-HTML-Final-Project/refs/heads/main/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Kranky&family=Miltonian&family=Snowburst+One&family=Sunshiney&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/homefile.css">
-    
-   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Kranky&family=Miltonian&family=Snowburst+One&family=Sunshiney&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="homefile.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-sm navbar-light text-white">
         <div class="container-fluid text-white">
-            <a class="navbar-brand"><img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/FoodiHub.png" alt="">FoodieHub</a>
+            <a class="navbar-brand"><img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/FoodiHub.png">FoodieHub</a>
             <button class="navbar-toggler ms-auto">
-                    <span class="navbar-toggler-icon  " type="button" data-bs-toggle="collapse" data-bs-target="#Navbarnav" aria-expanded="false"></span>
+                <span class="navbar-toggler-icon  " type="button" data-bs-toggle="collapse" data-bs-target="#Navbarnav"
+                    aria-expanded="false"></span>
             </button>
-                <div class="collapse navbar-collapse align-content-end text-white" id="Navbarnav">
-                    <ul class="navbar-nav ms-auto text-white" >
-                        <li class="nav-item">
-                            <a class="nav-link" href="#Order">Order</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#Restaurants">Restaurant</a>     
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                 </div>
+            <div class="collapse navbar-collapse align-content-end text-white" id="Navbarnav">
+                <ul class="navbar-nav ms-auto text-white">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Order">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Restaurants">Restaurant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-</nav>
-<div class="logo position-relative">
-    <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/soup.jpeg" class="w-100 h-100 object-fit-cover position-absolute top-0 start-0 z-n1" style="opacity: 0.7; z-index: 0;" alt="">
-        <div class="d-flex justify-content-center p-5 position-relative text-bold" style="height: 100vh; color: #56374D;">
+        </div>
+    </nav>
+    <div class="logo position-relative">
+        <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/soup.jpeg"
+            class="w-100 h-100 object-fit-cover position-absolute top-0 start-0 z-n1 opacity-75 z-0">
+        <div class="d-flex justify-content-center p-5 position-relative text-bold min-vh-100"  style=" color: #56374D;">
             <div class="position-absolute top-50 start-50 translate-middle text-center">
                 <div class="card border-double-outline rounded-pill bg-transparent" style=" color: #56374D;">
-                <h1>“Welcome to Foodie Hub</h1><br>
-                <p>Order your favorite meals instantly!"</p>
+                    <h1>“Welcome to Foodie Hub</h1>
+                    <h4>Order your favorite meals instantly!"</h4>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<section id="Restaurants" class="border border-outline-light" style="background-color:#8d909b; padding: 20px;">
-    <h1 style="color: #F0F5F9; text-align: center;">Restaurants' List</h1>
-        <div class="container mt-4"width="100%" height="100%">
-         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center text-center">
-            <div class="col">
-                <div class="card shadow-lg p-3" style="background-color: #8194a7; color: #F0F5F9">
-                <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/R1.jpg" class="img-fluid rounded-4"  alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Azro</h5>
-                    <p class="card-text">Authentic Afghan Cusine</p>
-                    <a href="#Azro" class="btn btn-outline-light">Menu</a>
+    <section id="Restaurants" class="border border-outline-light p-5 text-center">
+        <h1>Restaurants' List</h1>
+        <div class="container mt-4 w-100 h-100">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center text-center">
+                <div class="col">
+                    <div class="card shadow-lg p-3">
+                        <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/R1.jpg" class="img-fluid rounded-4" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Azro</h5>
+                            <p class="card-text">Authentic Afghan Cusine</p>
+                            <a href="#Azro" class="btn btn-outline-light">Menu</a>
+                        </div>
+                    </div>
                 </div>
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/R7.jpeg"
+                            class="card-img-top p-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Afghania</h5>
+                            <p class="card-text">Taste Real Afghan Cusine</p>
+                            <a href="#" class="btn btn-outline-light ">Menu</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        
-            <div class="col">
-                <div class="card shadow-lg" style="background-color: #748296; color: #F0F5F9">
-                <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/R7.jpeg" class="card-img-top p-3" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Afghania</h5>
-                    <p class="card-text">Taste Real Afghan Cusine</p>
-                    <a href="#" class="btn btn-outline-light ">Menu</a>
-                </div>
-                </div>
-            </div>
-        
-            <div class="col">
-                <div class="card shadow-lg" style="background-color: #748296; color: #F0F5F9;">
-                <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/R8.jpg.jpeg" class="card-img-top p-3" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Kabul Grill</h5>
-                    <p class="card-text">Feels like you are at Home</p>
-                    <a href="#" class="btn btn-outline-light ">Menu</a>
-                </div>
-                </div>
-            </div>
 
-            <div class="col">
-                <div class="card shadow-lg" style="background-color: #748296; color: #F0F5F9">
-                <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/R4.jpg" class="card-img-top p-3" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Sami's Kabab House</h5>
-                    <p class="card-text">Home Food</p>
-                    <a href="#" class="btn btn-outline-light ">Menu</a>
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/R8.jpg.jpeg"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kabul Grill</h5>
+                            <p class="card-text">Feels like you are at Home</p>
+                            <a href="#" class="btn btn-outline-light ">Menu</a>
+                        </div>
+                    </div>
                 </div>
-                </div>
-            </div>
 
-            <div class="col">
-                <div class="card shadow-lg" style="background-color: #748296; color: #F0F5F9">
-                <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/R2.jpg" class="card-img-top p-3" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Ariana</h5>
-                    <p class="card-text">Once visit & we bring your kitchen anywhere, everything must feel Your own Kitchen's Taste, </p>
-                    <a href="#" class="btn btn-outline-light">Menu</a>
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/R4.jpg"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sami's Kabab House</h5>
+                            <p class="card-text">Home Food</p>
+                            <a href="#" class="btn btn-outline-light ">Menu</a>
+                        </div>
+                    </div>
                 </div>
-                </div>
-            </div>
-        
-            <div class="col">
-                <div class="card shadow-lg" style="background-color: #748296; color: #F0F5F9">
-                <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/R3.jpg" class="card-img-top p-3" alt="..." width="200px" height="280px">
-                <div class="card-body">
-                    <h5 class="card-title">Kabul</h5>
-                    <p class="card-text">Feel Afghanistan</p>
-                    <a href="#" class="btn btn-outline-light">Menu</a>
-                </div>
-                </div>
-            </div>
 
-            <div class="col">
-                <div class="card shadow-lg" style="background-color: #748296; color: #F0F5F9;">
-                <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/R5.jpeg" class="card-img-top p-3" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Sheeryakh</h5>
-                    <p class="card-text">Home Sweet Home, Home sweet dessert, your home Sheeryakh at sheeryakh</p>
-                    <a href="#" class="btn btn-outline-light">Menu</a>
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/R2.jpg"
+                            class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ariana</h5>
+                            <p class="card-text">Once visit & we bring your kitchen anywhere, everything must feel Your
+                                own Kitchen's Taste, </p>
+                            <a href="#" class="btn btn-outline-light">Menu</a>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/R3.jpg" class="card-img-top p-3 h-25">
+                        <div class="card-body">
+                            <h5 class="card-title">Kabul</h5>
+                            <p class="card-text">Feel Afghanistan</p>
+                            <a href="#" class="btn btn-outline-light">Menu</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        
-            <div class="col">
-                <div class="card shadow-lg" style="background-color: #748296; color: #F0F5F9;">
-                <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/R6.jpg" class="card-img-top p-3" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Afghan Palace</h5>
-                    <p class="card-text">Homeland Food</p>
-                    <a href="#" class="btn btn-outline-light">Menu</a>
+
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/R5.jpeg"
+                            class="card-img-top p-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Sheeryakh</h5>
+                            <p class="card-text">Home Sweet Home, Home sweet dessert, your home Sheeryakh at sheeryakh
+                            </p>
+                            <a href="#" class="btn btn-outline-light">Menu</a>
+                        </div>
+                    </div>
                 </div>
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/R6.jpg"
+                            class="card-img-top p-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Afghan Palace</h5>
+                            <p class="card-text">Homeland Food</p>
+                            <a href="#" class="btn btn-outline-light">Menu</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
-</section>
+    </section>
 
-<section class="border border-outline-light" style="background-color: #828692; padding:20px;">
-    <h1 style="color: #F0F5F9; text-align: center;">Menus</h1>
-    <div id="carouselSlide" class="carousel slide" data-bs-ride="carousel">  <!-- data-bs-ride is a Bootstrap-specific data attribute that determines how a component "rides" (starts or behaves) when loaded. -->
-        <div class="carousel-indicators"><!-- This container holds the small circle buttons at the bottom that users can click to navigate to a specific slide. -->
-            <button type="button" data-bs-target="#carouselSlide" data-bs-slide="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselSlide" data-bs-slide="1"  aria-current="true" aria-label="Slide 2">
-                        <!-- A) aria-current="true" Accessibility feature for screen readers.
+    <section class="Menu border border-outline-light p-5">
+        <h1 style="color: #F0F5F9; text-align: center;">Menus</h1>
+        <div id="carouselSlide" class="carousel slide" data-bs-ride="carousel">
+            <!-- data-bs-ride is a Bootstrap-specific data attribute that determines how a component "rides" (starts or behaves) when loaded. -->
+            <div class="carousel-indicators">
+                <!-- This container holds the small circle buttons at the bottom that users can click to navigate to a specific slide. -->
+                <button type="button" data-bs-target="#carouselSlide" data-bs-slide="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselSlide" data-bs-slide="1" aria-current="true"
+                    aria-label="Slide 2">
+                    <!-- A) aria-current="true" Accessibility feature for screen readers.
                             Helps screen readers know what is currently active
                             Where used	Active slide indicators, nav links, etc.
                             Improves Accessibility (for users with disabilities)
@@ -161,231 +175,315 @@
                             Use it when:
                             The element has no visible text, but still needs a label
                             The label needs to be more descriptive than the visible text-->
-                    
-                        </button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <!-- class="carousel-item active": A single slide; active marks it as the first visible one. -->
-                <div class="container mt-4" width=100%; height=100%;>
-                    <div class="d-flex flex-wrap gap-4 p-3">
-                   
-                    <div class="card shadow-lg" style="background-color: #95a6bc; color: #F0F5F9; width: 18rem;">
-                      <div class="d-flex flex-column">
-                        <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/F15.jpg" class="card-img-top rounded-lg p-3" alt="...">
-                        <div class="card-body">
-                          <ul>
-                            <li><h5 class="card-title">Bolani</h5></li>
-                            <li><p class="card-text">Potatoes & Veggies</p></li>
-                            <li><p class="card-text">50 Afghani</p></li>
-                            <li><span class="badge bg-success">Available</span></li>
-                          </ul>
+
+                </button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!-- class="carousel-item active": A single slide; active marks it as the first visible one. -->
+                    <div class="container mt-4 w-100 h-100">
+                        <div class="d-flex flex-wrap gap-4 p-3">
+
+                            <div class="card shadow-lg">
+                                <div class="d-flex flex-column">
+                                    <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/F15.jpg"
+                                        class="card-img-top rounded-lg p-3" alt="...">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>
+                                                <h5 class="card-title">Bolani</h5>
+                                            </li>
+                                            <li>
+                                                <p class="card-text">Potatoes & Veggies</p>
+                                            </li>
+                                            <li>
+                                                <p class="card-text">50 Afghani</p>
+                                            </li>
+                                            <li><span class="badge bg-success">Available</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card shadow-lg">
+                                <div class="d-flex flex-column">
+                                    <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/F16.jpg"
+                                        class="card-img-top rounded-lg p-3">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>
+                                                <h5 class="card-title">Kabuli Pulao</h5>
+                                            </li>
+                                            <li>
+                                                <p class="card-text">Rice, raisin & carrot with meat</p>
+                                            </li>
+                                            <li>
+                                                <p class="card-text">100 Afghani</p>
+                                            </li>
+                                            <li><span class="badge bg-success">Available</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card shadow-lg">
+                                <div class="d-flex flex-column">
+                                    <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/F7.jpg"
+                                        class="card-img-top rounded-lg p-3" alt="...">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>
+                                                <h5 class="card-title">Mantu</h5>
+                                            </li>
+                                            <li>
+                                                <p class="card-text">Dumplings with meat</p>
+                                            </li>
+                                            <li>
+                                                <p class="card-text">100 Afghani</p>
+                                            </li>
+                                            <li><span class="badge bg-success">Available</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card shadow-lg">
+                                <div class="d-flex flex-column">
+                                    <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/F9.jpg"
+                                        class="card-img-top rounded-lg p-3 " alt="...">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>
+                                                <h5 class="card-title">Borani Banjan</h5>
+                                            </li>
+                                            <li>
+                                                <p class="card-text">Eggplant</p>
+                                            </li>
+                                            <li>
+                                                <p class="card-text">100 Afghani</p>
+                                            </li>
+                                            <li><span class="badge bg-success">Available</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                
-                    <div class="card shadow-lg" style="background-color: #95a6bc; color: #F0F5F9; width: 18rem;">
-                    <div class="d-flex flex-column">
-                      <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/F16.jpg" class="card-img-top rounded-lg p-3" alt="...">
-                      <div class="card-body">
-                        <ul>
-                          <li><h5 class="card-title">Kabuli Pulao</h5></li>
-                          <li><p class="card-text">Rice, raisin & carrot with meat</p></li>
-                          <li><p class="card-text">100 Afghani</p></li>
-                          <li><span class="badge bg-success">Available</span></li>
-                        </ul>
-                      </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container mt-4" width=100%; height=100%;>
+                        <div class="d-flex flex-wrap gap-4 p-3">
+                            <div class="card shadow-lg">
+                                <div class="d-flex flex-column">
+                                    <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/F18.jpg"
+                                        class="card-img-top rounded-lg p-3" alt="...">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>
+                                                <h5 class="card-title">Kofta</h5>
+                                            </li>
+                                            <li>
+                                                <p class="card-text">Fried & Gravy Meatballs</p>
+                                            </li>
+                                            <li>
+                                                <p class="card-text">50 Afghani</p>
+                                            </li>
+                                            <li><span class="badge bg-success">Available</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card shadow-lg">
+                                <div class="d-flex flex-column">
+                                    <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/F19.png"
+                                        class="card-img-top rounded-lg p-3" alt="...">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>
+                                                <h5 class="card-title">Ash Reshta</h5>
+                                            </li>
+                                            <li>
+                                                <p class="card-text">Afghan Noodles vegtable, corps, & noodles</p>
+                                            </li>
+                                            <li>
+                                                <p class="card-text">100 Afghani</p>
+                                            </li>
+                                            <li><span class="badge bg-success">Available</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card shadow-lg">
+                                <div class="d-flex flex-column">
+                                    <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/F20.jpg"
+                                        class="card-img-top rounded-lg p-3" alt="...">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>
+                                                <h5 class="card-title">Shir Berenj</h5>
+                                            </li>
+                                            <li>
+                                                <p class="card-text">Porridge rice, milk, & sugar</p>
+                                            </li>
+                                            <li>
+                                                <p class="card-text">100 Afghani</p>
+                                            </li>
+                                            <li><span class="badge bg-success">Available</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card shadow-lg">
+                                <div class="d-flex flex-column">
+                                    <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/F17.jpeg"
+                                        class="rounded card-img-top rounded-lg p-3 " alt="...">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>
+                                                <h5 class="card-title">Goshe Feel</h5>
+                                            </li>
+                                            <li>
+                                                <p class="card-text">Elephant Ear flour, eggs, & sugar</p>
+                                            </li>
+                                            <li>
+                                                <p class="card-text">100 Afghani</p>
+                                            </li>
+                                            <li><span class="badge bg-success">Available</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                <div class="card shadow-lg" style="background-color: #95a6bc; color: #F0F5F9; width: 18rem;">
-                    <div class="d-flex flex-column">
-                      <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/F7.jpg" class="card-img-top rounded-lg p-3" alt="...">
-                      <div class="card-body">
-                        <ul>
-                          <li><h5 class="card-title">Mantu</h5></li>
-                          <li><p class="card-text">Dumplings with meat</p></li>
-                          <li><p class="card-text">100 Afghani</p></li>
-                          <li><span class="badge bg-success">Available</span></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card shadow-lg" style="background-color: #95a6bc; color: #F0F5F9; width: 18rem;">
-                    <div class="d-flex flex-column">
-                      <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/F9.jpg" class="card-img-top rounded-lg p-3 " alt="...">
-                      <div class="card-body">
-                        <ul>
-                          <li><h5 class="card-title">Borani Banjan</h5></li>
-                          <li><p class="card-text">Eggplant</p></li>
-                          <li><p class="card-text">100 Afghani</p></li>
-                          <li><span class="badge bg-success">Available</span></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlide"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselSlide"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"></span>
+                </button>
+            </div>
+    </section>
+
+    <section id="Order" class="d-flex flex-column align-items-center py-5 text-white">
+        <h3 class="mb-4">Place Your Order</h3>
+      
+        <form action="#" method="post" class="OrderFrom card w-50 p-4 border border-light shadow-lg text-white" >
+          
+          <div class="mb-3 row align-items-center">
+            <label for="name" class="col-sm-3 col-form-label text-end">Name:</label>
+            <div class="col-sm-9">
+              <input type="text" id="name" name="name" class="form-control bg-transparent text-white border-white rounded-pill" required>
+            </div>
+          </div>
+      
+          <div class="mb-3 row align-items-center">
+            <label for="email" class="col-sm-3 col-form-label text-end">Contact:</label>
+            <div class="col-sm-9">
+              <input type="email" id="email" name="email" class="form-control bg-transparent text-white border-white rounded-pill" required>
+            </div>
+          </div>
+      
+          <div class="mb-3 row align-items-center">
+            <label for="restaurant" class="col-sm-3 col-form-label text-end">Restaurant:</label>
+            <div class="col-sm-9">
+              <select id="restaurant" class="form-select bg-transparent text-white border-white rounded-pill">
+                <option disabled selected>Select</option>
+                <option>Azro</option>
+                <option>Afghania</option>
+                <option>Kabul Grill</option>
+                <option>Kabul</option>
+                <option>Sami's House</option>
+                <option>Ariana</option>
+                <option>Sheeryakh</option>
+                <option>Afghan Palace</option>
+              </select>
+            </div>
+          </div>
+      
+          <div class="mb-3 row align-items-start position-static">
+            <label class="col-sm-3 col-form-label text-end">Menu Items:</label>
+            <div class="col-sm-9">
+              <div class="dropdown w-100">
+                <button class="btn btn-outline-light dropdown-toggle w-100 rounded-pill text-start" type="button"
+                        id="menuDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                  Select
+                </button>
+                <ul class="dropdown-menu w-100 p-3" aria-labelledby="menuDropdown">
+                  <li><div class="form-check"><input class="form-check-input" type="checkbox" id="bolani"><label class="form-check-label" for="bolani">Bolani</label></div></li>
+                  <li><div class="form-check"><input class="form-check-input" type="checkbox" id="ashak"><label class="form-check-label" for="ashak">Ashak</label></div></li>
+                  <li><div class="form-check"><input class="form-check-input" type="checkbox" id="mantu"><label class="form-check-label" for="mantu">Mantu</label></div></li>
+                  <li><div class="form-check"><input class="form-check-input" type="checkbox" id="kebab"><label class="form-check-label" for="kebab">Kebab</label></div></li>
+                  <li><div class="form-check"><input class="form-check-input" type="checkbox" id="kabuli"><label class="form-check-label" for="kabuli">Kabuli Pulao</label></div></li>
+                  <li><div class="form-check"><input class="form-check-input" type="checkbox" id="banjan"><label class="form-check-label" for="banjan">Borani Banjan</label></div></li>
+                  <li><div class="form-check"><input class="form-check-input" type="checkbox" id="goshe"><label class="form-check-label" for="goshe">Goshe Feel</label></div></li>
+                  <li><div class="form-check"><input class="form-check-input" type="checkbox" id="sheerberanj"><label class="form-check-label" for="sheerberanj">Sheerberanj</label></div></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div class="mb-4 row align-items-center">
+            <label for="menu-items" class="col-sm-3 col-form-label text-end">Quantity:</label>
+            <div class="col-sm-9">
+              <select id="menu-items" name="menu-items" class="form-select bg-transparent text-white border-white rounded-pill">
+                <option disabled selected>Select</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+              </select>
+            </div>
+          </div>
+      
+          <div class="text-center">
+            <button type="submit" class="btn btn-outline-light w-50 rounded-pill">Send</button>
+          </div>
+        </form>
+    </section>
+
+    <section id="about" class="d-flex flex-column p-5 justify-content-center align-items-center border border-outline-light text-center text-white" style="background-color: #B2B5BA; ">
+        <h1 >About Us</h1>
+        <div class="card d-flex flex-row justify-content-center align-items-center p-3 gap-3 shadow-lg text-white" style="background-color: #76889E; width:53rem; height:20rem;">
+             <div>
+                <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/F2.jpg " class="rounded" width="350px" height="300px">
+            </div>
+            <div>
+                <h2>Afghan Cuisine</h2>
+                <p>Afghan cuisine is a rich tapestry of flavors, deeply rooted in tradition and influenced by its neighbors. Dishes often feature rice, meat (especially lamb), vegetables, and a variety of aromatic spices. Some popular examples include Kabuli Pulao, a fragrant rice dish with lamb and raisins, and Bolani, a stuffed flatbread. Other notable dishes include Mantu (dumplings), Ashak (leek dumplings), and various kebab varieties. 
+                </p>
             </div>
         </div>
-        <div class="carousel-item">
-                <div class="container mt-4" width=100%; height=100%;>
-                <div class="d-flex flex-wrap gap-4 p-3">
-                    <div class="card shadow-lg" style="background-color: #95a6bc; color: #F0F5F9; width: 18rem;">
-                        <div class="d-flex flex-column">
-                          <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/F18.jpg" class="card-img-top rounded-lg p-3" alt="...">
-                          <div class="card-body">
-                            <ul>
-                              <li><h5 class="card-title">Kofta</h5></li>
-                              <li><p class="card-text">Fried & Gravy Meatballs</p></li>
-                              <li><p class="card-text">50 Afghani</p></li>
-                              <li><span class="badge bg-success">Available</span></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="card shadow-lg" style="background-color: #95a6bc; color: #F0F5F9; width: 18rem;">
-                      <div class="d-flex flex-column">
-                        <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/F19.png" class="card-img-top rounded-lg p-3" alt="...">
-                        <div class="card-body">
-                          <ul>
-                            <li><h5 class="card-title">Ash Reshta</h5></li>
-                            <li><p class="card-text">Afghan Noodles vegtable, corps, & noodles</p></li>
-                            <li><p class="card-text">100 Afghani</p></li>
-                            <li><span class="badge bg-success">Available</span></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card shadow-lg" style="background-color: #95a6bc; color: #F0F5F9; width: 18rem;">
-                      <div class="d-flex flex-column">
-                        <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/F20.jpg" class="card-img-top rounded-lg p-3" alt="...">
-                        <div class="card-body">
-                          <ul>
-                            <li><h5 class="card-title">Shir Berenj</h5></li>
-                            <li><p class="card-text">Porridge rice, milk, & sugar</p></li>
-                            <li><p class="card-text">100 Afghani</p></li>
-                            <li><span class="badge bg-success">Available</span></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card shadow-lg" style="background-color: #95a6bc; color: #F0F5F9; width: 18rem;">
-                      <div class="d-flex flex-column">
-                        <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/F17.jpeg" class="rounded card-img-top rounded-lg p-3 " alt="...">
-                        <div class="card-body">
-                          <ul>
-                            <li><h5 class="card-title">Goshe Feel</h5></li>
-                            <li><p class="card-text">Elephant Ear flour, eggs, & sugar</p></li>
-                            <li><p class="card-text">100 Afghani</p></li>
-                            <li><span class="badge bg-success">Available</span></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlide" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden" ></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselSlide" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden" ></span>
-        </button>
-    </div>
-
-</section>
-
-<section id="Order" class="d-flex flex-column align-items-center text-align-center border border-outline-light justify-content-center text-light py-5 text-white" style="background-color: #a3a6ad;">
-    <h3 class="mb-4">Place Your Order</h3>
-  
-    <form action="#" method="post" class="card d-flex flex-column gap-3 w-100 px-4 border border-light shadow-lg text-white " style="background-color: #95a6bc; max-width: 500px;">
-  
-      <div class="d-flex flex-row gap-3 mt-5 text-end">
-        <label for="name" class="form-label">Name:</label>
-        <input type="text" id="name" name="name" class="form-control bg-transparent text-white border border-white justify-content-end rounded-pill" required>
-      </div>
-  
-      <div class="d-flex flex-row gap-3">
-        <label for="email" class="form-label">Contact:</label>
-        <input type="email" id="email" name="email" class="form-control bg-transparent text-white border border-white justify-content-end rounded-pill" required>
-      </div>
-  
-      <div class="d-flex flex-row gap-4">
-        <label for="restaurant" class="form-label">Food Selection:</label>
-        <select id="restaurant" class="form-select bg-transparent text-white border border-white justify-content-end w-50 rounded-pill">
-          <option value="Select" disabled selected>Select</option>
-          <option>Azro</option>
-          <option>Afghania</option>
-          <option>Kabul Grill</option>
-          <option>Kabul</option>
-          <option>Sami's House</option>
-          <option>Ariana</option>
-          <option>Sheeryakh</option>
-          <option>Afghan Palace</option>
-        </select>
-      </div>
-  
-      <div class="dropdown d-flex gap-3">
-        <label class="form-label">Choose Menu Items:</label>
-        <button class="btn btn-outline-light dropdown-toggle rounded-pill justify-content-end" type="button" data-bs-toggle="dropdown">Select</button>
-        <ul class="dropdown-menu p-3 w-100">
-          <li><div class="form-check"><input class="form-check-input" type="checkbox" id="bolani"><label class="form-check-label" for="bolani">Bolani</label></div></li>
-          <li><div class="form-check"><input class="form-check-input" type="checkbox" id="ashak"><label class="form-check-label" for="ashak">Ashak</label></div></li>
-          <li><div class="form-check"><input class="form-check-input" type="checkbox" id="mantu"><label class="form-check-label" for="mantu">Mantu</label></div></li>
-          <li><div class="form-check"><input class="form-check-input" type="checkbox" id="kebab"><label class="form-check-label" for="kebab">Kebab</label></div></li>
-          <li><div class="form-check"><input class="form-check-input" type="checkbox" id="bolani"><label class="form-check-label" for="bolani">Kabuli Pulao</label></div></li>
-          <li><div class="form-check"><input class="form-check-input" type="checkbox" id="ashak"><label class="form-check-label" for="ashak">Borani Banjan</label></div></li>
-          <li><div class="form-check"><input class="form-check-input" type="checkbox" id="mantu"><label class="form-check-label" for="mantu">Goshe Feel</label></div></li>
-          <li><div class="form-check"><input class="form-check-input" type="checkbox" id="kebab"><label class="form-check-label" for="kebab">Sheerberanj</label></div></li>
-        </ul>
-      </div>
-  
-      <div class="d-flex flex-wrap gap-3 ">
-        <label for="menu-items" class="form-label ">Quantity:</label>
-        <select id="menu-items" name="menu-items" class="bg-transparent text-white border border-white rounded-pill justify-content-end w-50 ">
-          <option disabled selected>Select</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option>6</option>
-        </select>
-      </div>
-  
-      <button type="submit" class="btn btn-outline-light mb-5 w-25 justify-content-center align-contents-center text-align-center rounded-pill">Send</button>
-    </form>
-  </section>
-
-  <section id="about" class="d-flex flex-column p-5 justify-content-center align-items-center border border-outline-light text-center text-white" style="background-color: #B2B5BA; ">
-    <h1 >About Us</h1>
-    <div class="card d-flex flex-row justify-content-center align-items-center p-3 gap-3 shadow-lg text-white" style="background-color: #76889E; width:53rem; height:20rem;">
-         <div>
-            <img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/F2.jpg " class="rounded" width="350px" height="300px">
-        </div>
-        <div>
-            <h2>Afghan Cuisine</h2>
-            <p>Afghan cuisine is a rich tapestry of flavors, deeply rooted in tradition and influenced by its neighbors. Dishes often feature rice, meat (especially lamb), vegetables, and a variety of aromatic spices. Some popular examples include Kabuli Pulao, a fragrant rice dish with lamb and raisins, and Bolani, a stuffed flatbread. Other notable dishes include Mantu (dumplings), Ashak (leek dumplings), and various kebab varieties. 
-            </p>
-        </div>
-    </div>
-  </section>
-
-  <footer id="contact" class="d-flex flex-column gap-3 text-white p-3 border border-outline-light">
-    <h3 class="mb-4">Contact</h3>
-    <p class="mb-0">📍 Karte 4, Pole Sorkh, Kabul, Afghanistan</p>
-    <a href="gmail.com" class="text-white text-decoration-none">📮 AfghanFood@foodiehub.org</a>
-    <p class="mb-0">☎️ +9631145363</p>
+      </section>
     
-    <div class="d-flex flex-row gap-3">
-    <a href="Twitter.com"><img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/Twitter.png" width="40px;" height="35px;"></a>
-    <a href="telegram.com"><img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/Telegram.png" width="35px;" height="35px;"></a>
-    <a href="instagram.com"><img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/Insta.png" width="35px;" height="35px;"></a>
-    <a href="facebook.com"><img src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/Facebook.png" width="35px;" height="35px;"></a>
-</div>
-</footer>
+    <footer id="contact" class="d-flex flex-column gap-3 text-white p-3 border border-outline-light">
+        <h3 class="mb-4">Contact</h3>
+        <p class="mb-0">📍 Karte 4, Pole Sorkh, Kabul, Afghanistan</p>
+        <a href="gmail.com" class="text-white text-decoration-none">📮 AfghanFood@foodiehub.org</a>
+        <p class="mb-0">☎️ +9631145363</p>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
+        <div class="d-flex flex-row gap-3">
+            <a href="Twitter.com"><img
+                    src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/Twitter.png"
+                    width="40px;" height="35px;"></a>
+            <a href="telegram.com"><img
+                    src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/Telegram.png"
+                    width="35px;" height="35px;"></a>
+            <a href="instagram.com"><img
+                    src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/Insta.png"
+                    width="35px;" height="35px;"></a>
+            <a href="facebook.com"><img
+                    src="https://raw.githubusercontent.com/zahrahussainzada/BootStrapProject/refs/heads/main/Facebook.png"
+                    width="35px;" height="35px;"></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
