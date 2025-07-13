@@ -85,11 +85,14 @@ option:hover{
     }
     #about p{
         font-size: 0.8rem;
+        white-space: normal;
+        word-break: break-word;
+        text-align: center;
     }
     #about img{
         width: 100%;
-  height: auto;
-  margin-bottom: 0.6rem;
+        height: auto;
+        margin-bottom: 0.6rem;
     }
 }  
 @media (max-width: 768px) {
