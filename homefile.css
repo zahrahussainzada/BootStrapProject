@@ -63,6 +63,10 @@ form.card{
     width:53rem; 
     height:20rem;
 }
+#about img{
+    width:350px; 
+    height:300px;
+}
 .card, 
 input,
 select,
