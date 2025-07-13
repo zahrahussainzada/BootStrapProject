@@ -6,7 +6,7 @@
 
 body{
     font-family: "Miltonian", serif;
-   
+    color: white;
 }
 .navbar,
 footer,
@@ -21,3 +21,77 @@ footer,
     color: white;
     height:700px;
 }
+#Restaurants{
+    background-color:#8d909b;
+    font-family: "Miltonian", serif;
+    color: white;
+}
+.card{
+    background-color: #748296;; 
+    color: #F0F5F9;
+    font-family: "Miltonian", serif;
+    color: white;
+}
+.Menu{
+    background-color: #828692;
+    color: #F0F5F9;
+    font-family: "Miltonian", serif;
+}
+.container .card{
+    background-color: #95a6bc; 
+    color: #F0F5F9;
+    width: 18rem;
+    font-family: "Miltonian", serif;
+}
+#Order{
+    background-color: #a3a6ad;
+    font-family: "Miltonian", serif;
+    color: white;
+}
+form.card{
+   background-color: #95a6bc; 
+   max-width: 500px;
+   font-family: "Miltonian", serif;
+color: white;
+}
+@media (max-width: 768px) {
+.logo h1{
+ font-size: 1.5rem;
+}
+ .logo h4{
+    font-size: 1.1rem;
+}
+}
+@media (max-width: 768px) {
+    #Order form.card {
+      flex-direction: column;
+      width: 90%;
+      padding: 1rem;
+    }
+  
+    #Order .form-label,
+    #Order .form-control,
+    #Order .form-select,
+    #Order .dropdown-toggle,
+    #Order .dropdown-menu {
+      width: 100%;
+    }
+  
+    #Order .d-flex {
+      flex-direction: column !important;
+    }
+  
+    #Order button[type="submit"] {
+      width: 100%;
+    }
+  }
+  @media (max-width: 768px){
+    #Restaurants .card{
+        flex-direction: column;
+
+    }
+  }
+  #about{
+    font-family: "Miltonian", serif;
+color: white;
+  }
