@@ -103,7 +103,7 @@ option:hover{
     }
     @media (max-width: 768px) {
         #about {
-          padding: 1rem;
+          padding: 0.5rem;
           text-align: center;
         }
       
@@ -111,7 +111,7 @@ option:hover{
           flex-direction: column; 
           align-items: center;
           width: 100%;
-          padding: 1rem;
+          padding: 0.2rem;
           box-sizing: border-box;
         }
       
@@ -136,6 +136,7 @@ option:hover{
           padding: 0 0.5rem;
           line-height: 1.4;
           text-align: justify;
+            justify-text: fit-content;
         }
       }
 @media (max-width: 768px) {
