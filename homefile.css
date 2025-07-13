@@ -90,7 +90,7 @@ option:hover{
 }
 }
 @media (max-width: 768px) {
-    #about .Content{
+    #about .AboutUs{
         flex-direction: column;
         width: 100%;
         padding: 1rem;
@@ -104,6 +104,7 @@ option:hover{
         text-align: center;
         word-break: break-word;
         padding: 0 0.5rem;
+        text-wrap:wrap;
     }
     #about img{
         flex-direction: column;
