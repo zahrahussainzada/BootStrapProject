@@ -81,6 +81,10 @@ option:hover{
     transform: scale(1.009); 
     color: #988c8c;
 }
+#about{
+    font-family: "Miltonian", serif;
+    color: white;
+  }
 @media (max-width: 768px) {
 .logo h1{
  font-size: 1.2rem;
@@ -90,13 +94,27 @@ option:hover{
 }
 }
 @media (max-width: 768px) {
-    #about .AboutUs{
+    .logo h1{
+     font-size: 1.2rem;
+    }
+     .logo h4{
+        font-size: 1rem;
+    }
+    }
+@media (max-width: 768px) {
+    #about{
         flex-direction: column;
         width: 100%;
-        padding: 1rem;
-        box-sizing: border-box;
         min-height: auto;
-        padding:3px;
+        padding: 0.5rem;
+        box-sizing: border-box;
+    }
+    #about .aboutUs{
+        flex-direction: column;
+        width: 100%;
+        min-height: auto;
+        padding: 0.2rem;
+        box-sizing: border-box;
     }
     #about h1{
         font-size: 1rem;
@@ -105,8 +123,8 @@ option:hover{
         font-size: 0.9rem;
         text-align: center;
         word-break: break-word;
-        padding: 0 0.5rem;
-        text-wrap:wrap;
+        padding: 3px;
+        text-wrap: wrap;
     }
     #about img{
         flex-direction: column;
@@ -143,10 +161,6 @@ option:hover{
     #Restaurants .card{
         flex-direction: column;
     }
-  }
-  #about{
-    font-family: "Miltonian", serif;
-color: white;
   }
   @media (max-width: 768px) {
     #contact{
