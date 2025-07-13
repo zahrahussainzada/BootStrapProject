@@ -90,7 +90,7 @@ option:hover{
 }
 }
 @media (max-width: 768px) {
-    #about .card{
+    #about .Content{
         flex-direction: column;
         width: 100%;
         padding: 1rem;
@@ -106,21 +106,13 @@ option:hover{
         padding: 0 0.5rem;
     }
     #about img{
+        flex-direction: column;
         width: 100%;
         height: auto;
         max-width: 100%; 
         margin-bottom: 1rem; 
  }
 }  
-
-
-
-
-
-
-
-
-
 @media (max-width: 768px) {
     #Order form.card {
       flex-direction: column;
@@ -147,10 +139,15 @@ option:hover{
   @media (max-width: 768px){
     #Restaurants .card{
         flex-direction: column;
-
     }
   }
   #about{
     font-family: "Miltonian", serif;
 color: white;
   }
+  @media (max-width: 768px) {
+    #contact{
+        justify-content: center;
+    }
+    
+    }
