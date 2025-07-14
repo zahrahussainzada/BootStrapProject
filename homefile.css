@@ -110,9 +110,8 @@ option:hover{
         #about .aboutUs {
           flex-direction: column; 
           align-items: center;
-          width: 100%;
+          max-width: 100%;
           padding: 0.2rem;
-          box-sizing: border-box;
         }
       
         #about img {
@@ -143,7 +142,7 @@ option:hover{
 @media (max-width: 768px) {
     #Order form.card {
       flex-direction: column;
-      width: 90%;
+      max-width: 100%;
       padding: 0.5rem;
       text-align: left;
     }
@@ -153,7 +152,7 @@ option:hover{
     #Order .form-select,
     #Order .dropdown-toggle,
     #Order .dropdown-menu {
-      width: 100%;
+      max-width: 100%;
     text-align:left;
     }
   
@@ -163,7 +162,7 @@ option:hover{
     }
   
     #Order button[type="submit"] {
-      width: 100%;
+      max-width: 100%;
     }
   }
   @media (max-width: 768px){
