@@ -159,6 +159,7 @@ option:hover{
   
     #Order .d-flex {
       flex-direction: column !important;
+        text-align: left;
     }
   
     #Order button[type="submit"] {
@@ -168,6 +169,9 @@ option:hover{
   @media (max-width: 768px){
     #Restaurants .card{
         flex-direction: column;
+        justify-content: center;
+         align-items: center;
+            text-align: center;
     }
   }
   @media (max-width: 768px) {
@@ -175,14 +179,4 @@ option:hover{
         justify-content: center;
         align-items: center;
         text-align: center;
-    }
-    
-    }
- @media (max-width: 768px) {
-        #Restaurants .card{
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        
-        }
+    }}
