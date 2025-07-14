@@ -120,6 +120,7 @@ option:hover{
           height: auto;
           max-width: 100%;
           margin-bottom: 1rem;
+          position: top;
         }
       
         #about h1 {
